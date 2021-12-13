@@ -2,3 +2,4 @@
 // such as names of functions and macros.
 // For more information see https://go.microsoft.com/fwlink/?linkid=865984
 #define REACT_MODULE(__VA_ARGS__) INTERNAL_REACT_MODULE(__VA_ARGS__)(__VA_ARGS__)
+#define REACT_METHOD(__VA_ARGS__) INTERNAL_REACT_MEMBER(__VA_ARGS__)(AsyncMethod, __VA_ARGS__)

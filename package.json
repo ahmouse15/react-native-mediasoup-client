@@ -2,7 +2,7 @@
   "name": "react-native-mediasoup-client",
   "title": "React Native Mediasoup Client",
   "version": "0.0.1",
-  "description": "This package provides a JavaScript API to allow communication with a Mediasoup server",
+  "description": "This package provides a JavaScript API to allow communication between a client and a Mediasoup server",
   "main": "index.js",
   "files": [
     "README.md",
@@ -21,10 +21,13 @@
     "baseUrl": "https://github.com/ahmouse15/react-native-mediasoup-client"
   },
   "keywords": [
-    "react-native"
+    "react-native",
+	"mediasoup",
+	"webrtc",
+	"windows"
   ],
   "author": "Ahmed Abdulla <ahmed.abdulla15@protonmail.com>",
-  "license": "ISC",
+  "license": "EPL-2.0",
   "licenseFilename": "LICENSE",
   "peerDependencies": {
     "react": ">=16.8.1",

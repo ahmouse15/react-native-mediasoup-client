@@ -111,7 +111,7 @@
       <RuntimeLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">MultiThreadedDebugDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
-      <AdditionalDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\libmediasoupclient\build\Debug\mediasoupclient.lib;C:\webrtc\src\out\m94\obj\webrtc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\libmediasoupclient\build\Debug\mediasoupclient.lib;C:\webrtc\src\out\m94\obj\webrtc.lib;C:\libmediasoupclient\build\libsdptransform\Debug\sdptransform.lib;winmm.lib;dmoguids.lib;wmcodecdspuuid.lib;amstrmid.lib;msdmo.lib;crypt32.lib;iphlpapi.lib;secur32.lib;Strmiids.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <Link>
       <AdditionalDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\libmediasoupclient\build\Debug\mediasoupclient.lib;%(AdditionalDependencies)</AdditionalDependencies>
